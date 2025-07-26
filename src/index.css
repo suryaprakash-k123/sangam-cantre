@@ -1,0 +1,145 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+
+    --foreground: 220 90% 20%; /* Navy blue for text */
+
+    --card: 150 60% 18%;
+    --card-foreground: 220 90% 20%;
+
+    --popover: 150 60% 18%;
+    --popover-foreground: 220 90% 20%;
+
+    --primary: 180 100% 25%; /* Teal */
+    --primary-foreground: 150 60% 15%;
+
+    --secondary: 150 40% 25%;
+    --secondary-foreground: 220 90% 20%;
+
+    --muted: 150 30% 20%;
+    --muted-foreground: 180 50% 60%;
+
+    --accent: 180 100% 35%; /* Teal accent */
+    --accent-foreground: 150 60% 15%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 150 30% 30%;
+    --input: 150 30% 30%;
+    --ring: 180 100% 25%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 150 60% 15%;
+    --sidebar-foreground: 220 90% 20%;
+    --sidebar-primary: 180 100% 25%;
+    --sidebar-primary-foreground: 150 60% 15%;
+    --sidebar-accent: 150 40% 25%;
+    --sidebar-accent-foreground: 220 90% 20%;
+    --sidebar-border: 150 30% 30%;
+    --sidebar-ring: 180 100% 25%;
+  }
+
+  .dark {
+    --background: 150 60% 12%;
+    --foreground: 180 100% 90%;
+
+    --card: 150 60% 12%;
+    --card-foreground: 180 100% 90%;
+
+    --popover: 150 60% 12%;
+    --popover-foreground: 180 100% 90%;
+
+    --primary: 180 100% 40%;
+    --primary-foreground: 150 60% 12%;
+
+    --secondary: 150 30% 18%;
+    --secondary-foreground: 180 100% 90%;
+
+    --muted: 150 30% 18%;
+    --muted-foreground: 180 50% 70%;
+
+    --accent: 180 100% 40%;
+    --accent-foreground: 150 60% 12%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 150 30% 20%;
+    --input: 150 30% 20%;
+    --ring: 180 100% 40%;
+
+    --sidebar-background: 150 60% 12%;
+    --sidebar-foreground: 180 100% 90%;
+    --sidebar-primary: 180 100% 40%;
+    --sidebar-primary-foreground: 150 60% 12%;
+    --sidebar-accent: 150 30% 18%;
+    --sidebar-accent-foreground: 180 100% 90%;
+    --sidebar-border: 150 30% 20%;
+    --sidebar-ring: 180 100% 40%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply text-foreground font-serif;
+    line-height: 1.7;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+    line-height: 1.3;
+    color: #1e3a8a; /* Navy blue */
+  }
+}
+
+@layer utilities {
+  .newspaper-heading {
+    @apply font-serif font-bold tracking-tight;
+    font-family: 'Times New Roman', serif;
+    color: #1e3a8a; /* Navy blue */
+  }
+  
+  .newspaper-body {
+    @apply font-serif leading-relaxed;
+    font-family: 'Times New Roman', serif;
+    color: #1e3a8a; /* Navy blue */
+  }
+  
+  .newspaper-accent {
+    @apply italic;
+    color: #0d9488; /* Teal */
+  }
+  
+  .hover-underline {
+    @apply relative;
+  }
+  
+  .hover-underline::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background-color: #0d9488; /* Teal underline */
+    transition: width 0.3s ease;
+  }
+  
+  .hover-underline:hover::after {
+    width: 100%;
+  }
+}
