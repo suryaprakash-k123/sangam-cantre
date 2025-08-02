@@ -407,158 +407,140 @@ const Publications = () => {
   //     )}
   //   </div>
   // );
-  return (
-    <div className="bg-white">
-      <img
-        src="/Publication.png"
-        alt="Decorative banner"
-        className="w-full max-w-8xl h-[400px] object-cover"
-      />
-      {activeTab === "upcoming" && (
-        <section className="py-16">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold newpaper-body mb-4">
-                Publications
-              </h2>
-              {/* <p className="text-xl newpaper-body max-w-3xl mx-auto">
-                Mark your calendar for these upcoming policy discussions and
-                research presentations.
-              </p> */}
-            </div>
-            <div className="bg-teal-50 border-gray-200 rounded-lg shadow-md overflow-hidden mb-8">
-              <div className="p-8">
-                <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between">
-                  <div className="flex-1">
-                    <div className="flex items-center mb-3">
-                      <span className="px-3 py-1 text-xs font-semibold rounded-full mr-3 bg-blue-100 text-blue-800">
-                        Latest Publication
-                      </span>
-                    </div>
-                    <h3 className="text-2xl font-bold newpaper-body mb-4">
-                      Policy Analysis of SAMRUDHI (Agriculture Policy)
-                    </h3>
-                    <h5 className="pb-3">by Shri Subrat Tripathy</h5>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-                      <div className="flex items-center newpaper-body">
-                        <Calendar className="mr-2 flex-shrink-0" size={16} />
-                        <span>2020</span>
-                      </div>
-                      <div className="flex items-center newpaper-body">
-                        <MapPin className="mr-2 flex-shrink-0" size={16} />
-                        <span>Odisha</span>
-                      </div>
-                    </div>
-                    <a
-                      href="/Assignment_Submission_Subrat Tripathy _Guest Series 2_AMPPP2021.docx"
-                      download
-                      className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors"
-                    >
-                      <ArrowRight className="mr-2" size={16} />
-                      View Full Report
-                    </a>
+return (
+  <div className="bg-white">
+    <img
+      src="/Publication.png"
+      alt="Decorative banner"
+      className="w-full max-w-8xl h-[400px] object-cover"
+    />
+    <section className="py-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold newpaper-body mb-4">
+            Publications
+          </h2>
+        </div>
+
+        {/* Existing Publication Card */}
+        <div className="bg-teal-50 border-gray-200 rounded-lg shadow-md overflow-hidden mb-8">
+          <div className="p-8">
+            <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between">
+              <div className="flex-1">
+                <div className="flex items-center mb-3">
+                  <span className="px-3 py-1 text-xs font-semibold rounded-full mr-3 bg-blue-100 text-blue-800">
+                    Latest Publication
+                  </span>
+                </div>
+                <h3 className="text-2xl font-bold newpaper-body mb-4">
+                  Policy Analysis of SAMRUDHI (Agriculture Policy)
+                </h3>
+                <h5 className="pb-3">by Shri Subrat Tripathy</h5>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                  <div className="flex items-center newpaper-body">
+                    <Calendar className="mr-2 flex-shrink-0" size={16} />
+                    <span>2020</span>
+                  </div>
+                  <div className="flex items-center newpaper-body">
+                    <MapPin className="mr-2 flex-shrink-0" size={16} />
+                    <span>Odisha</span>
                   </div>
                 </div>
+                <a
+                  href="/Assignment_Submission_Subrat Tripathy _Guest Series 2_AMPPP2021.docx"
+                  download
+                  className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors"
+                >
+                  <ArrowRight className="mr-2" size={16} />
+                  View Full Report
+                </a>
               </div>
             </div>
-            <div className="space-y-8">
-              {upcomingEvents.map((event) => (
-                <div
-                  key={event.id}
-                  className="bg-teal-50 border-gray-200 rounded-lg shadow-md overflow-hidden"
-                >
-                  <div className="p-8">
-                    <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between">
-                      <div className="flex-1">
-                        <div className="flex items-center mb-3">
-                          <span
-                            className={`px-3 py-1 text-xs font-semibold rounded-full mr-3 ${
-                              event.type === "Conference"
-                                ? "bg-blue-100 text-blue-800"
-                                : event.type === "Workshop"
-                                ? "bg-green-100 text-green-800"
-                                : "bg-purple-100 text-purple-800"
-                            }`}
-                          >
-                            {event.type}
-                          </span>
-                          {event.isVirtual && (
-                            <span className="px-3 py-1 text-xs font-semibold bg-orange-100 text-orange-800 rounded-full">
-                              Virtual Event
-                            </span>
-                          )}
-                        </div>
+          </div>
+        </div>
 
-                        <h3 className="text-2xl font-bold newpaper-body mb-4">
-                          {event.title}
-                        </h3>
-                        <p className="newpaper-body mb-6 leading-relaxed">
-                          {event.description}
-                        </p>
-
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-                          <div className="flex items-center newpaper-body">
-                            <Calendar
-                              className="mr-2 flex-shrink-0"
-                              size={16}
-                            />
-                            <span>{event.date}</span>
-                          </div>
-                          <div className="flex items-center newpaper-body">
-                            <Clock className="mr-2 flex-shrink-0" size={16} />
-                            <span>{event.time}</span>
-                          </div>
-                          <div className="flex items-center newpaper-body">
-                            {event.isVirtual ? (
-                              <Video className="mr-2 flex-shrink-0" size={16} />
-                            ) : (
-                              <MapPin
-                                className="mr-2 flex-shrink-0"
-                                size={16}
-                              />
-                            )}
-                            <span>{event.venue}</span>
-                          </div>
-                          <div className="flex items-center newpaper-body">
-                            <Users className="mr-2 flex-shrink-0" size={16} />
-                            <span>{event.capacity}</span>
-                          </div>
-                        </div>
-
-                        <div className="mb-6">
-                          <h4 className="font-semibold newpaper-body mb-2">
-                            Featured Speakers:
-                          </h4>
-                          <ul className="newpaper-body">
-                            {event.speakers.map((speaker, index) => (
-                              <li
-                                key={index}
-                                className="flex items-center mb-1"
-                              >
-                                <div className="w-2 h-2 newpaper-body rounded-full mr-2"></div>
-                                {speaker}
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      </div>
-
-                      {/* <div className="lg:ml-8 lg:flex-shrink-0">
-                        <button className="bg-teal-600 text-white px-8 py-3 rounded font-medium hover:bg-teal-700 transition-all duration-200 uppercase tracking-wide text-sm hover:shadow-lg inline-flex items-center">
-                          Register Now
-                          <ArrowRight className="ml-2" size={20} />
-                        </button>
-                      </div> */}
-                    </div>
+        {/* New Publication Card 1 */}
+        <div className="bg-teal-50 border-gray-200 rounded-lg shadow-md overflow-hidden mb-8">
+          <div className="p-8">
+            <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between">
+              <div className="flex-1">
+                <div className="flex items-center mb-3">
+                  <span className="px-3 py-1 text-xs font-semibold rounded-full mr-3 bg-purple-100 text-purple-800">
+                    Governance & Culture
+                  </span>
+                </div>
+                <h3 className="text-2xl font-bold newpaper-body mb-4">
+                  Cultural Intelligence and Inclusive Governance
+                </h3>
+                <h5 className="pb-3">
+                  by Rana Prithviraj Singh & Suryaprakash Kar
+                </h5>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                  <div className="flex items-center newpaper-body">
+                    <Calendar className="mr-2 flex-shrink-0" size={16} />
+                    <span>2025</span>
+                  </div>
+                  <div className="flex items-center newpaper-body">
+                    <MapPin className="mr-2 flex-shrink-0" size={16} />
+                    <span>India</span>
                   </div>
                 </div>
-              ))}
+                <a
+                  href="/CQ_CB_ Governance_ABSTRACT (1).pdf"
+                  download
+                  className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors"
+                >
+                  <ArrowRight className="mr-2" size={16} />
+                  View Full Report
+                </a>
+              </div>
             </div>
           </div>
-        </section>
-      )}
-    </div>
-  );
+        </div>
+
+        {/* New Publication Card 2 */}
+        <div className="bg-teal-50 border-gray-200 rounded-lg shadow-md overflow-hidden mb-8">
+          <div className="p-8">
+            <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between">
+              <div className="flex-1">
+                <div className="flex items-center mb-3">
+                  <span className="px-3 py-1 text-xs font-semibold rounded-full mr-3 bg-green-100 text-green-800">
+                    Environmental Policy
+                  </span>
+                </div>
+                <h3 className="text-2xl font-bold newpaper-body mb-4">
+                  A Pluralistic, Culturally-Rooted Environmental Governance
+                  Model Integrating Indian Knowledge Systems and Scientific
+                  Evidence through MCDA
+                </h3>
+                <h5 className="pb-3">by Saiyami Bhardwaj & Abhishek Bharti</h5>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                  <div className="flex items-center newpaper-body">
+                    <Calendar className="mr-2 flex-shrink-0" size={16} />
+                    <span>2025</span>
+                  </div>
+                  <div className="flex items-center newpaper-body">
+                    <MapPin className="mr-2 flex-shrink-0" size={16} />
+                    <span>India</span>
+                  </div>
+                </div>
+                <a
+                  href="/Draft of IKS Conference Version 2.pdf"
+                  download
+                  className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors"
+                >
+                  <ArrowRight className="mr-2" size={16} />
+                  View Full Report
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+);
+
 };
 
 export default Publications;
