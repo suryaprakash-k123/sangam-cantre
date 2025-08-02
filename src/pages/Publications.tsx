@@ -447,7 +447,7 @@ return (
                   </div>
                 </div>
                 <a
-                  href="/Assignment_Submission_Subrat Tripathy _Guest Series 2_AMPPP2021.docx"
+                  href="/Assignment_Submission_Subrat Tripathy _Guest Series 2_AMPPP2021.pdf"
                   download
                   className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors"
                 >
