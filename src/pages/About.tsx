@@ -25,7 +25,7 @@ const About = () => {
     },
     {
       name: "Divya Rathore",
-      position: "Consultantxxx",
+      position: "Consultant",
       expertise: "",
       image: "/divya.JPG",
       description:
