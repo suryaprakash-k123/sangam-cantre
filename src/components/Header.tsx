@@ -31,16 +31,11 @@ const Header = () => {
             className="flex items-center space-x-2 hover:opacity-80 transition-opacity group flex-shrink-0"
           >
             <img
-              src="/logo-min.jpg"
+              src="/text_logo.jpg"
               alt="logo"
-              className="w-16 lg:w-20 md:w-20 h-auto object-contain"
+              className="w-24 lg:w-32 md:w-32 h-auto object-contain"
             />
 
-            <div className="sm:flex flex-col">
-              <h1 className="newspaper-heading text-lg sm:text-xl lg:text-3xl text-navy-800 tracking-wider uppercase">
-                SANGAM CENTRE
-              </h1>
-            </div>
           </Link>
 
           {/* Desktop Navigation - Newspaper section style */}
