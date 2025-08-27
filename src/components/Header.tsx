@@ -31,23 +31,15 @@ const Header = () => {
             className="flex items-center space-x-2 hover:opacity-80 transition-opacity group flex-shrink-0"
           >
             <img
-              src="/logo-min.png"
+              src="/logo-min.jpg"
               alt="logo"
-              className="w-28 sm:w-24 lg:w-28 h-auto object-contain hidden sm:block"
+              className="w-16 lg:w-20 md:w-20 h-auto object-contain"
             />
 
-            <div className="flex flex-col">
+            <div className="sm:flex flex-col">
               <h1 className="newspaper-heading text-lg sm:text-xl lg:text-3xl text-navy-800 tracking-wider uppercase">
                 SANGAM CENTRE
               </h1>
-              {/* <div className="mt-1">
-              <div className="text-xs pb-1 newspaper-accent tracking-widest">
-                AN INITIATIVE BY
-              </div>
-              <div className="text-sm sm:text-base whitespace-nowrap newspaper-accent tracking-widest">
-                SAMSKRUTI FOUNDATION
-              </div>
-              </div> */}
             </div>
           </Link>
 
@@ -57,10 +49,11 @@ const Header = () => {
               <Link
                 key={item.name}
                 to={item.href}
-                className={`px-3 xl:px-4 py-2 whitespace-nowrap text-sm font-medium transition-all duration-200 hover-underline uppercase tracking-wide ${isActive(item.href)
+                className={`px-3 xl:px-4 py-2 whitespace-nowrap text-sm font-medium transition-all duration-200 hover-underline uppercase tracking-wide ${
+                  isActive(item.href)
                     ? "text-navy-900 bg-teal-50 font-semibold"
                     : "text-navy-700 hover:text-navy-900 hover:bg-teal-25"
-                  }`}
+                }`}
               >
                 {item.name}
               </Link>
@@ -85,10 +78,11 @@ const Header = () => {
                   key={item.name}
                   to={item.href}
                   onClick={() => setIsMenuOpen(false)}
-                  className={`px-4 py-3 text-sm font-medium rounded-md transition-colors uppercase tracking-wide ${isActive(item.href)
+                  className={`px-4 py-3 text-sm font-medium rounded-md transition-colors uppercase tracking-wide ${
+                    isActive(item.href)
                       ? "text-navy-900 bg-teal-50 font-semibold"
                       : "text-navy-700 hover:text-navy-900 hover:bg-teal-25"
-                    }`}
+                  }`}
                 >
                   {item.name}
                 </Link>
