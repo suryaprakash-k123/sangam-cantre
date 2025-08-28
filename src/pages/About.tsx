@@ -24,6 +24,14 @@ const About = () => {
         "Subrat Tripathy is a purpose-driven entrepreneur, policy advocate, and socio-cultural leader with over 20 years of diverse experience spanning corporate leadership, technology entrepreneurship, youth mobilization, and culture-led public policy. As Managing Director of SRS Perfection India (OPC) Pvt. Ltd., he pioneered AI-enabled logistics and vehicle tracking systems across Eastern India. Formerly with Tata Motors and Castrol India, he led service marketing and retail operations across major mining and transport belts. Subrat has done Advanced Management in Public Policy from world’s one of the leading college Indian School of Business. He has been instrumental in shaping grassroots leadership and mentoring startups in health tech and water innovation. He heads the public policy division, focusing on traditional knowledge systems, temple economy, and rural development. Deeply rooted in Bharatiya cultural values, he blends technology, public policy, and youth leadership for nation-building, disaster response, and civic engagement.",
     },
     {
+      name: "Dr. Nisha Pandey",
+      position: "Advisor",
+      expertise: "Public Policy",
+      image: "/Nisha.jpg"
+      description:
+        "Dr. Nisha Pandey is very good",
+    },
+    {
       name: "Divya Rathore",
       position: "Consultant",
       expertise: "",
