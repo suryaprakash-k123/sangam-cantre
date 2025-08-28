@@ -24,14 +24,6 @@ const About = () => {
         "Subrat Tripathy is a purpose-driven entrepreneur, policy advocate, and socio-cultural leader with over 20 years of diverse experience spanning corporate leadership, technology entrepreneurship, youth mobilization, and culture-led public policy. As Managing Director of SRS Perfection India (OPC) Pvt. Ltd., he pioneered AI-enabled logistics and vehicle tracking systems across Eastern India. Formerly with Tata Motors and Castrol India, he led service marketing and retail operations across major mining and transport belts. Subrat has done Advanced Management in Public Policy from world’s one of the leading college Indian School of Business. He has been instrumental in shaping grassroots leadership and mentoring startups in health tech and water innovation. He heads the public policy division, focusing on traditional knowledge systems, temple economy, and rural development. Deeply rooted in Bharatiya cultural values, he blends technology, public policy, and youth leadership for nation-building, disaster response, and civic engagement.",
     },
     {
-      name: "Dr. Nisha Pandey",
-      position: "Advisor",
-      expertise: "Professor and Advisor Vivekanand Global University, Jaipur", "Former Professor and  Director, Gujarat Institute of Development Research (GIDR)"
-      image: "/Nisha.jpg",
-      description:
-        "Presently, Dr. Pandey is associated as Professor and Advisor in the Department of Development Studies at Vivekanand Global University, Jaipur. Advisor, Research department,  in RMP, Keshav Shresti, Mumbai. Prior to this, Dr. Nisha Pandey was working as Director at Gujarat Institute of Development Research in Ahmadabad from July 23 to July 25 at  The Gujarat Institute of Development Research (GIDR) is a premier Institute. Dr. Pandey spearheaded institutional growth through active policy advocacy, the introduction of policy briefs, and the signing of more than ten Memoranda of Understanding (MoUs) with leading academic and research institutions, thereby expanding GIDR’s collaborative footprint."
-    },
-    {
       name: "Divya Rathore",
       position: "Consultant",
       expertise: "",
