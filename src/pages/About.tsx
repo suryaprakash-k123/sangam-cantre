@@ -27,7 +27,7 @@ const About = () => {
       name: "Dr. Nisha Pandey",
       position: "Advisor",
       expertise: "Public Policy",
-      image: "/Nisha.jpg"
+      image: "/Nisha.jpg",
       description:
         "Dr. Nisha Pandey is very good",
     },
