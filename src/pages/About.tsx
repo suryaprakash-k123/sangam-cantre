@@ -56,6 +56,14 @@ const About = () => {
         "Rajiv Agarwal is a multidisciplinary entrepreneur and advisor who operates from a deep sense of agency rooted in clarity and independent thinking. He began his entrepreneurial journey at the age of 19, funding his first personal computer, an XT PC that he assembled himself in 1989. With a diverse academic background spanning multiple master’s degrees, bachelor’s degrees, diplomas, and certifications from both prestigious institutions and lesser-known spaces, Rajiv embodies lifelong learning beyond conventional hierarchies. His work spans software architecture, psychology, law, linguistics, urban farming, and hands-on DIY innovation. Over the years, he has funded and supported more than 15 ventures across mental health, law, biodiversity, finance, and technology, experiencing failures, follow-on funding rounds, revenue-generating successes, and one successful exit. His journey offers grounded insights shaped by experimentation, resilience, and real-world outcomes.",
     },
     {
+      name: "Mr. Pramod K. Mishra",
+      position: "Advisor",
+      expertise: "Founder and Managing Director, Abhiyaan Infra Projects Pvt. Ltd.",
+      image: "/Pramod_1.png",
+      description:
+        "Pramod K. Mishra is the Founder and Managing Director of Abhiyaan Infra Projects Pvt. Ltd.. With extensive experience in the infrastructure and power sectors, he has been associated with a major business conglomerate and has served as President – Projects in the power industry, leading the planning and execution of large-scale projects. Beyond his professional accomplishments, Mr. Mishra is the President of Shri Guru Vashishtha Nyas, a trust dedicated to the promotion of Indic values, cultural heritage, and national consciousness. Under his leadership, the organization regularly conducts seminars, lectures, and discussions on important national issues, bringing together eminent personalities from diverse fields to share their perspectives and insights. Mr. Mishra has also been actively engaged in various socio-cultural initiatives and public-interest activities aimed at fostering national development, social harmony, and cultural awareness. His work reflects a commitment to both professional excellence and meaningful contributions to society through thought leadership, community engagement, and the promotion of India’s civilizational values.",
+    },
+    {
       name: "Divya Rathore",
       position: "Consultant",
       expertise: "Senior Policy Specialist, Govt. of India",
