@@ -65,11 +65,19 @@ const About = () => {
     },
     {
       name: "Suryaprakash Kar",
-      position: "Research Fellow",
-      expertise: "Manager (Academic Operations), Rishihood University",
+      position: "Manager",
+      expertise: "Rishihood University",
       image: "/Surya_1.png",
       description:
         "Suryaprakash Kar is working as a Manager – Academic Operations at Rishihood University, driving academic policy formation, curriculum development, and student affairs within the Registrar's Office. He holds a B.Tech in Agricultural Engineering, during which he founded a startup supporting Indian cultural artists—an initiative that earned him the Young Entrepreneurs Award (2020) in Delhi. He further advanced his education with an MBA in Urban Management & Governance from XIM University, Bhubaneswar (XIMB), where he led the Media and Public Relations Cell, organizing high-profile events like LinkedIn workshops, a media conclave, and TED talks. During his MBA, his capstone project analyzed FSI changes in Bhubaneswar’s residential real estate, crafting investment strategies for middle-income households. Suryaprakash’s professional journey spans both the public and private sectors. He interned at Colliers International and IBI Group India, contributed to the Aarogya Setu technical team during the COVID‑19 pandemic, and served as Monitoring Officer for the Mo School Abhiyan under the Department of School and Mass Education, Government of Odisha. At Rishihood University, he has been instrumental in drafting over a dozen academic guidelines, 50+ annexures, and automating multiple institutional processes—efforts that earned him the Rishihood Rachna Award (Chikirsha) in June.",
+    },
+    {
+      name: "Navaneeth Ganesh",
+      position: "Senior Consultant",
+      expertise: "Ministry of Education",
+      image: "/Navneeth_1.png",
+      description:
+        "Navaneeth Ganesh is an Engineer by training with a zeal for innovation enterprise-led development. From his college days, he has been volunteering in various projects and participating in social and technology hackathons that worked on products and processes for social good in Education, Healthcare and Capacity Building. He loves to read Kafka’s absurdities, Ayn Rand’s objectivism, and everything in between. The first place you’d find him whenever in a new place is the 2nd hand bookstore skimming through the wares. With varied interests ranging Art, Culture, and History, to Technology, Policy, and New Media he blogs regularly and hopes to one day write something timeless. Navaneeth has pursued an MBA from IIM Visakhapatnam and a fellowship in Public Policy and Management from IIM Bangalore and has worked with the Ministries of Education, Skill Development and Entrepreneurship.",
     },
     {
       name: "Saiyami Bhardwaj",
