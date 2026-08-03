@@ -31,7 +31,7 @@ const Header = () => {
             className="flex items-center space-x-2 hover:opacity-80 transition-opacity group flex-shrink-0"
           >
             <img
-              src="/text_logo.jpg"
+              src="/Logo_Sangam.jpeg"
               alt="logo"
               className="w-24 lg:w-32 md:w-32 h-auto object-contain"
             />
