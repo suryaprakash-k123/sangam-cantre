@@ -117,10 +117,10 @@ const Home = () => {
 
   const upcomingEvents = [
     {
-      title: "Round Table on Culture and Policy",
-      date: "March 21, 2026",
-      time: "10:00 AM - 4:00 PM",
-      venue: "India Habitat Centre, New Delhi",
+      title: "Dharohar Dialogue by Ami Ganatra",
+      date: "August 9, 2026",
+      time: "4:00 PM - 5:00 PM",
+      venue: "Online",
     },
   ];
 
