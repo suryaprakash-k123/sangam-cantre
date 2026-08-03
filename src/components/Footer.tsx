@@ -61,10 +61,7 @@ const Footer = () => {
                 <Mail size={16} className="text-teal-900 flex-shrink-0 mt-1" />
                 <div className="flex flex-col space-y-1">
                   <span className="text-teal-100 text-sm newspaper-body break-words">
-                    divya.r@sangamcentre.org
-                  </span>
-                  <span className="text-teal-100 text-sm newspaper-body break-words">
-                    suryaprakash@sangamcentre.org
+                    subrat.t@sangamcentre.org
                   </span>
                 </div>
               </li>
