@@ -15,35 +15,29 @@ const Home = () => {
   const focusAreas = [
     {
       icon: Globe,
-      title: "Traditional Arts and Cultural Heritage Preservation",
-      desc: "Examining policies for safeguarding tangible and intangible cultural heritage while enabling contemporary adaptation.",
+      title: "Creative Industries and Economic Development",
+      desc: "Understanding the economic dimensions of cultural policy and creative industries as drivers of economic growth.",
     },
     {
       icon: FileText,
-      title: "Digital Heritage and Technology Integration",
-      desc: "Evaluating digital preservation initiatives and developing policy frameworks for emerging technologies in cultural heritage.",
+      title: "Cultural Impact & Policy Evaluation",
+      desc: "Developing tools to measure the social and economic outcomes of cultural policies for better decision-making.",
     },
     {
       icon: Users,
-      title: "Cultural Diplomacy and Soft Power",
-      desc: "Analyzing how nations leverage cultural assets to build international relationships and project influence.",
+      title: "Community Cultural Development",
+      desc: "Focusing on grassroots cultural initiatives and empowering communities to shape their cultural futures.",
     },
     {
       icon: Target,
-      title: "Creative Industries and Economic Development",
-      desc: "Investigating the economic dimensions of cultural policy and creative industries as drivers of economic growth.",
+      title: "Cultural Sustainability",
+      desc: "Investigating how cultural practices contribute to environmental sustainability and how heritage connects to sustainable development goals.",
     },
     {
       icon: BookOpen,
-      title: "Cultural Impact Assessment and Policy Evaluation",
-      desc: "Developing frameworks for measuring social, economic, and cultural impacts of policy interventions.",
+      title: "Youth Education & Cultural Learning",
+      desc: "Helping youth engage with culture through education, nurturing creativity and cultural literacy and ensuring broad access for all communities.",
     },
-    {
-      icon: Heart,
-      title: "Community Cultural Development and Participation",
-      desc: "Examining participatory cultural development models and community engagement strategies.",
-    },
-  ];
 
   const advisors = [
     {
