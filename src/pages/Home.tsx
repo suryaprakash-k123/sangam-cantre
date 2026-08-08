@@ -161,29 +161,13 @@ const Home = () => {
                 The Creative Economy, also known as the Orange Economy, refers to the part of the economy driven by creativity, culture, and intellectual property, comprising activities where value comes primarily from ideas, knowledge, artistic expression, and cultural content, rather than from physical goods.
               </p>
               <p className="newspaper-body text-lg text-navy-800 leading-relaxed mb-6">
-                The Sangam Centre for Culture and Public Policy—a space where
-                the richness of Indian traditions meets the dynamism of
-                contemporary policies. At Sangam, we believe that cultural
-                vitality and thoughtful policy are the twin pillars of a
-                flourishing society.
+               The creative economy is growing in India, but remains fragmented. Today, India’s creative sector includes, but is not limited to,  media and entertainment, gaming and animation, digital content, performing arts, cultural tourism, etc. Each sector has its own associations, ministries, and departments, but very few organisations work across the entire creative economy ecosystem. 
               </p>
               <p className="newspaper-body text-lg text-navy-800 leading-relaxed">
-                The think tank sector in India has experienced significant
-                growth, with the country now hosting 509 think tanks as of 2018,
-                making it the second-largest concentration globally after the
-                United States. This proliferation reflects India's growing
-                intellectual capacity and the increasing complexity of policy
-                challenges facing the nation. Within this context, cultural
-                policy research remains an underexplored yet crucial domain that
-                requires dedicated institutional focus. The intersection of
-                culture and public policy in India presents unique opportunities
-                and challenges. On one hand, India's diverse cultural heritage
-                provides immense soft power potential, with initiatives and
-                various schemes promoting traditional arts, digital preservation
-                programs, and cultural diplomacy efforts. On the other hand,
-                policy frameworks often struggle to adequately address the
-                nuanced needs of cultural preservation, promotion, and
-                integration with contemporary development goals.
+               Countries such as the UK, South Korea, Australia, and Indonesia have institutions and dedicated creative economy think tanks. These organisations conduct research, advise governments, publish creative economy reports, and promote dialogues and events centred around the creative economy and its sectors. Today, in India, we have organisations working in culture preservation and promotion, entrepreneurship, and public policy, but almost none combine all three. This leaves a major gap. With this gap also comes a major focus on questions like what the creative economy contributes to GDP, what policy reforms are needed to accelerate cultural growth, and how these cultural assets can generate livelihoods.
+              </p>
+               <p className="newspaper-body text-lg text-navy-800 leading-relaxed mb-6">
+                With these questions, we have started Sangam Centre for Culture and Policy, an organisation which aims to bridge culture, policy, research, entrepreneurship, investment and capacity building within India- which is the world’s largest cultural ecosystem. We are India’s first interdisciplinary centre dedicated to the creative economy, culture and policy. Rather than operating as a cultural or a policy organisation alone, we connect research, policy, entrepreneurship and international collaboration under one umbrella. We are a platform that helps governments, universities, industries and creative practitioners to work together and strengthen India’s creative economy.
               </p>
             </div>
           </div>
