@@ -158,10 +158,7 @@ const Home = () => {
 
             <div className="max-w-5xl mx-auto mb-12">
               <p className="newspaper-body text-lg text-navy-800 leading-relaxed mb-6">
-                In the rapidly evolving landscape of India's cultural and
-                policy-making environment, the need for specialized think tank
-                that bridges the gap between cultural heritage and contemporary
-                governance has never been more critical.
+                The Creative Economy, also known as the Orange Economy, refers to the part of the economy driven by creativity, culture, and intellectual property, comprising activities where value comes primarily from ideas, knowledge, artistic expression, and cultural content, rather than from physical goods.
               </p>
               <p className="newspaper-body text-lg text-navy-800 leading-relaxed mb-6">
                 The Sangam Centre for Culture and Public Policy—a space where
